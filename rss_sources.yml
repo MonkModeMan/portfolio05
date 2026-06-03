@@ -1,0 +1,61 @@
+## 🔧 `rss_sources.yml`
+sources:
+  - name: arXiv AI
+    url: https://export.arxiv.org/rss/cs.AI
+    language: en
+    category: paper
+    tags: [arxiv, ai, research]
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    language: en
+    category: blog
+    tags: [huggingface, transformers, nlp]
+
+  - name: OpenAI Blog
+    url: https://openai.com/news/rss.xml
+    language: en
+    category: blog
+    tags: [openai, gpt, llm]
+
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+    language: en
+    category: blog
+    tags: [google, gemini, research]
+
+  - name: Microsoft Research Blog
+    url: https://www.microsoft.com/en-us/research/feed/
+    language: en
+    category: blog
+    tags: [microsoft, research]
+
+  - name: DeepMind Blog
+    url: https://www.deepmind.com/blog/rss.xml
+    language: en
+    category: blog
+    tags: [deepmind, alpha, ai]
+
+  - name: MIT
+    url: https://news.mit.edu/rss/topic/artificial-intelligence2
+    language: en
+    category: news
+    tags: [mit, ai]
+
+  - name: ITmedia AI
+    url: https://rss.itmedia.co.jp/rss/2.0/aiplus.xml
+    language: ja
+    category: news
+    tags: [japan, itmedia, ai]
+
+  - name: AI Smily
+    url: https://aismiley.co.jp/ai-news_category/llm/feed
+    language: ja
+    category: news
+    tags: [japan, aismily, ai]
+
+  - name: AI Shift
+    url: https://www.ai-shift.co.jp/techblog/feed
+    language: ja
+    category: blog
+    tags: [japan, aishift, ai]
