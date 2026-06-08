@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "serve:local": "node scripts/serve-static.mjs --port 4174",
+    "startup:register": "powershell -ExecutionPolicy Bypass -File scripts/register-startup.ps1",
     "rss": "node scripts/update-news.mjs",
     "refresh": "npm run rss && npm run build"
   },
